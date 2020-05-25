@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         bar.show();
     }
-
+// this is a part of android development
     public void mesha(View view) {
         Toast.makeText(getApplicationContext(), "Mesha", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, Details.class);
